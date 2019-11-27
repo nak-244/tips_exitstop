@@ -94,3 +94,21 @@ $(function () {
 # sample2
 
 [デモページ](https://www.olp.co.jp/lp/sample2/)
+
+~~~html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sample-modal</title>
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <script src="https://sigotora.jp/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+</head>
+<body id="body" class="body" style="margin: 0;width: 100%;height: 1000px;">
+    <script src="assets/js/modal.js" type="text/javascript"></script>
+</body>
+</html>
+~~~

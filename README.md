@@ -1,6 +1,6 @@
 # sample1
 
-[デモページ](https://www.olp.co.jp/lp/2019userstop/)
+[デモページ](https://www.olp.co.jp/lp/sample1/)
 
 ## html
 
@@ -92,3 +92,5 @@ $(function () {
 ```
 
 # sample2
+
+[デモページ](https://www.olp.co.jp/lp/sample2/)

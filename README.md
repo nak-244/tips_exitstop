@@ -267,8 +267,8 @@ $(window).load()でページ読み込み時に処理を行うようにjqueryを�
 ### 上記を「ページ離脱時」に変更
 ~~~java
 <script type="text/javascript">
-    // 画面表示時にクリックイベント発動でモーダルを表示させる
-    $(window).load(function() {
+    // ページを移動するときにクリックイベント発動でモーダルを表示させる
+    $(window).on('beforeunload', function() {
       $("#trigger_modal").leanModal( { overlayOpacity: 0.5, overlayClick:true, closeButton: "#modal_close" } ).trigger('click');
     });
 </script>

@@ -1,0 +1,49 @@
+#msk {
+    width: 100vw;
+    height: 100vh;
+    background: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 90;
+}
+
+#msk #mskInner {
+    text-align: center;
+}
+
+#msk #mskInner #return {
+    width: 150px;
+    margin: 20px auto;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #fff;
+    cursor: pointer;
+}
+
+/*mskInnerの位置調整*/
+
+#mskInner {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+}
+
+/*マスク非表示*/
+
+#msk {
+    display: none;
+}
+
+/*マスクスイッチ*/
+
+#mskSwitch{
+    width: 100vw;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

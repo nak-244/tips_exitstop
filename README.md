@@ -116,7 +116,7 @@ $(function () {
 ~~~
 ## CSS
 
-~~~css:common.css
+```css:common.css
 #modal-close{
 	display: block;
 	box-sizing: border-box;
@@ -157,7 +157,7 @@ $(function () {
 	width: 100%;
 }
 
-~~~
+```
 
 ## jQuery
 

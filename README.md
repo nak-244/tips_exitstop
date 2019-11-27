@@ -71,3 +71,11 @@
     right: 0;
 }
 ~~~
+
+## jQuery
+
+```php
+function hello(){
+　return "hello world!";
+}
+```

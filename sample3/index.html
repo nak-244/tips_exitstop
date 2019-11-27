@@ -13,11 +13,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <script type='text/javascript' src='assets/js/jquery.leanModal.min.js'></script>
 <!-- スクロール -->
-<script type="text/javascript">
-    // 画面表示時にクリックイベント発動でモーダルを表示させる
-    $(window).load(function() {
-      $("#trigger_modal").leanModal( { overlayOpacity: 0.5, overlayClick:true, closeButton: "#modal_close" } ).trigger('click');
-    });
+<script>
+function mes(event){
+  event.returnValue = "ページを離れます。よろしいですか？";
+}
+
+window.onbeforeunload = mes;
 </script>
 </head>
 

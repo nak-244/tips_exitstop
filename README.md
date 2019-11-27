@@ -265,11 +265,4 @@ $(window).load()でページ読み込み時に処理を行うようにjqueryを�
 .leanModalに.trigger(‘click’)を使用することで、クリックの動作を実現します。
 
 ### 上記を「ページ離脱時」に変更
-~~~java
-<script type="text/javascript">
-    // ページを移動するときにクリックイベント発動でモーダルを表示させる
-    $(window).on('beforeunload', function() {
-      $("#trigger_modal").leanModal( { overlayOpacity: 0.5, overlayClick:true, closeButton: "#modal_close" } ).trigger('click');
-    });
-</script>
-~~~
+「ページ離脱時」に変更できない！正確に言うと「ページ離脱時」にモーダルが表示されない・・・

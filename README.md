@@ -116,6 +116,12 @@ $(function () {
 ~~~
 ## CSS
 
+```php:hello.php
+function hello(){
+　return "hello world!";
+}
+```
+
 ```css:common.css
 #modal-close{
 	display: block;
@@ -156,7 +162,6 @@ $(function () {
 	vertical-align: top;
 	width: 100%;
 }
-
 ```
 
 ## jQuery
